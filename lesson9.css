@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 500vh;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    padding: 0px 45px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.logo{
+    flex: 1;
+    color: #214E41;
+    font-weight: 100;
+}
+.collection{
+    display: flex;
+}
+.item{
+    list-style: none;
+    margin-right: 50px;
+}
+.item a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #214E41;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #43806c;
+    color: #fff;
+}
+.nav_controller select{
+    border: none;
+    outline: none;
+    margin: 0px 30px;
+    color: #214E41;
+    font-weight: 700;
+    font-size: 13px;
+}
+.nav_controller span{
+    color: #214E41;
+    font-weight: 700;
+    font-size: 13px;
+}
+.banner{
+    width: 100%;
+    height: 720px;
+    background: url(./img/Rectangle.png) no-repeat center/cover;
+    padding-top: 161px;
+    padding-left: 120px;
+    position: relative;
+}
+.banner_text{
+width: 550px;
+}
+.banner_text h1{
+    color: #214E41;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.banner_text p{
+    color:#214E41;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.banner_form{
+    display: flex;
+}
+.banner_form input{
+    width: 280px;
+    height: 60px;
+    border-radius 6px 0px 0px 6px;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+}
+.banner_form input::placeholder{
+    color: #000;
+    font-weight: 700;
+}
+.banner_form button{
+    width: 123px;
+    height: 60px;
+    border: none;
+    background: #43806c;
+    color: #fff;
+    border-radius: 0px 6px 6px 0px;
+}
+.banner_extra{
+    position: absolute;
+    width: 80%;
+    height: 171px;
+    background: red;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+}
